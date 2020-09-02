@@ -24,6 +24,7 @@ Objects {
   ChildIds: 12776955400641868577
   ChildIds: 5110644267102116706
   ChildIds: 7173806575331695393
+  ChildIds: 1559673081014321257
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,45 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1559673081014321257
+  Name: "Fantasy Castle Floor 01 - Curved 4m "
+  Transform {
+    Location {
+      X: -4500
+      Y: -7300
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6237721853954450664
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -59,8 +99,29 @@ Objects {
           Name: "Position"
           Vector {
             X: -4750
-            Y: -1200
-            Z: 50
+            Y: 4650
+            Z: 350
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9009441406683145434
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 29.8288574
+            Y: 153.921875
+            Z: 490
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.1503906
+            Yaw: -47.1514282
+            Roll: 166.928802
           }
         }
       }
@@ -1297,6 +1358,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      Y: -10150
       Z: 115
     }
     Rotation {

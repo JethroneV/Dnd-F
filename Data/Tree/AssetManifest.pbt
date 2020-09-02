@@ -61,3 +61,12 @@ Assets {
     AssetId: "CORESKY_Sky"
   }
 }
+Assets {
+  Id: 6237721853954450664
+  Name: "Fantasy Castle Floor 01 - Curved 4m "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_floor_curve_001"
+  }
+}
