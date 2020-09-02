@@ -38,7 +38,7 @@ local function OnBindingPressed(player, binding)
 			end
 			
 		if CURRENT_STAMINA >= MAX_STAMINA then
-		CURRENT_STAMINA = MAX_STAMINA
+		CURRENT_STAMINA = 0
 		DASH_ACTIVE = false
 		end
 		
