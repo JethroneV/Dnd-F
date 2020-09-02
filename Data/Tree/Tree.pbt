@@ -19,12 +19,16 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 7021425656555984644
-  ChildIds: 9366569349822610184
-  ChildIds: 1997786173843649745
+  ChildIds: 16639271253403766885
   ChildIds: 9624503581772635987
   ChildIds: 16591829620463224778
   ChildIds: 7069213300641702001
+  ChildIds: 3654226315288162568
+  ChildIds: 13042209399982441423
+  ChildIds: 4050392255295043891
+  ChildIds: 14542508208929719105
+  ChildIds: 115165033996907845
+  ChildIds: 5483555852986545044
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +38,208 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 5483555852986545044
+  Name: "Hyrdra"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4716189202743773616
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Hyrdra"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1250
+            Y: -9950
+            Z: 500
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14467187825180833402
+    }
+  }
+}
+Objects {
+  Id: 115165033996907845
+  Name: "Sewer Bars"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4687014682556590873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sewer Bars"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1600
+            Y: -11000
+            Z: 200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5059715899602219170
+    }
+  }
+}
+Objects {
+  Id: 14542508208929719105
+  Name: "Stone Portal"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1404701403386994880
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Stone Portal"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2300
+            Y: -10700
+            Z: 200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7519224163761319736
+    }
+  }
+}
+Objects {
+  Id: 4050392255295043891
+  Name: "Breakable Bottle 3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16246752250213775921
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Breakable Bottle 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1750
+            Y: -10300
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14450012884566644723
+    }
+  }
+}
+Objects {
+  Id: 13042209399982441423
+  Name: "Breakable Bottle 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8416044850076028965
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Breakable Bottle 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1550
+            Y: -10150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7181619419398034755
+    }
+  }
+}
+Objects {
+  Id: 3654226315288162568
+  Name: "Breakable Bottle"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5906881273250033370
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Breakable Bottle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: -11350
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18071647195142057244
+    }
   }
 }
 Objects {
@@ -156,12 +362,12 @@ Objects {
   }
 }
 Objects {
-  Id: 1997786173843649745
-  Name: "Bone Human Pile Straight 01"
+  Id: 16639271253403766885
+  Name: "NewFolder"
   Transform {
     Location {
-      X: 200
-      Y: 650
+      X: -50
+      Y: 850
     }
     Rotation {
     }
@@ -178,94 +384,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 3422430488952506834
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9366569349822610184
-  Name: "Bone Human Pile Straight 02"
-  Transform {
-    Location {
-      Y: 1050
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13477175830777224004
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7021425656555984644
-  Name: "Bone Human Ribcage 01"
-  Transform {
-    Location {
-      X: -350
-      Y: 900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7620131537083058929
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
   }
 }
 Objects {
@@ -821,6 +942,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      Y: -10000
       Z: 115
     }
     Rotation {
