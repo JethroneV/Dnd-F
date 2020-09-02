@@ -25,6 +25,7 @@ Objects {
   ChildIds: 5110644267102116706
   ChildIds: 7173806575331695393
   ChildIds: 1559673081014321257
+  ChildIds: 16241456327845730099
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +35,41 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16241456327845730099
+  Name: "DASHING"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7181338995208579143
+      value {
+        Overrides {
+          Name: "Name"
+          String: "DASHING"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13218345611818865397
+      value {
+        Overrides {
+          Name: "cs:DASH_ACTIVE"
+          Bool: true
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11516840509131236337
+    }
   }
 }
 Objects {
