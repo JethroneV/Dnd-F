@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
   Id: 16037408476381471598
   Name: "Rock Hexagonal"
   PlatformAssetType: 1
@@ -44,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12565806970335291042
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 12467798854610493452
   Name: "Waterfall Top Volume VFX"
   PlatformAssetType: 8
@@ -59,15 +59,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
   }
 }
 Assets {
@@ -98,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11056348269188297429
+  Name: "Fuse Sparks VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fuse_sparks"
+  }
+}
+Assets {
   Id: 9217088275714087139
   Name: "Ring - Thin"
   PlatformAssetType: 1
@@ -107,12 +107,21 @@ Assets {
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
+  Id: 8177547038663956390
+  Name: "Smooth Indent Trail VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_smooth_indent_trail"
+  }
+}
+Assets {
+  Id: 7737263862372851995
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
   }
 }
 Assets {
@@ -185,5 +194,23 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_water_jet"
+  }
+}
+Assets {
+  Id: 1153676008382746594
+  Name: "Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_basic_001_ref"
+  }
+}
+Assets {
+  Id: 522349590837859566
+  Name: "Ember Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_ember_volume_vfx"
   }
 }
